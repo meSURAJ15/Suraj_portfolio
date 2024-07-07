@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Portfolio</title>
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Default style for PC */
+        .resume-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 1000px;
+            height: 1200px;
+        }
+
+        /* Responsive style for mobile */
+        @media (max-width: 768px) {
+            .resume-image {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="user">
+            <img src="images/about_img.png" alt="">
+            <h3 class="name">SURAJ</h3>
+            <p class="post">Team Leader</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">resume</a></li>
+                <li><a href="#portfolio">experiences</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <section class="home" id="home">
+        <h3>Hi !</h3>
+        <h1>I'M <span>Suraj</span></h1>
+        <p>Junior year undergraduate and a part time debating coach.</p>
+
+
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"> <span>My</span> Resume </h1><br>
+        <img src="images/resume1-suraj.jpg" alt="" class="resume-image">
+        
+        <a href="suraj_resume.pdf" download class="btn">
+            Download Resume <i class="fa-solid fa-download"></i>
+        </a>
+    </section>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="heading">My&nbsp;<span>Experiences</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/IEEE_RAS.png">
+                    <div class="layer">
+                        <h3>IEEE Robotics & Automation society</h3>
+                        <h3>CHAIRPERSON</h3>
+                        <p>Hosting talks on robotics and automation trends.</p>
+                        <p>Arranging robotics challenges for skill development.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/natvansh.jpg">
+                    <div class="layer">
+                        <h3>Natvansh: Drama and Film Club NITP</h3>
+                        <h3>MEMBER</h3>
+                        <p>Plan and execute drama productions, skits, plays, & short films</p>
+                        <p>Arrange sessions on acting, scriptwriting</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/teslaNITP.jpg">
+                    <div class="layer">
+                        <h3>TESLA Club NITP</h3>
+                        <h3>BLOCKCHAIN TEAM MEMBER</h3>
+                        <p>Learned from Blockchain Trainers</p>
+                        <p>Event and Team Management</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/IEEE-MTT-S.png">
+                    <div class="layer">
+                        <h3>IEEE MTTS NITP</h3>
+                        <h3>TECHNICAL HEAD</h3>
+                        <p>Organized Seminars</p>
+                        <p>Held sessions on microwave circuit design and measurements.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/blockchain.jpg">
+                    <div class="layer">
+                        <h3>BLOCKCHAIN FDP</h3>
+                        <h3>ORGANISING MEMBER</h3>
+                        <p>Learned from Blockchain Trainers</p>
+                        <p>Event and Team Management</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/NSS.png">
+                    <div class="layer">
+                        <h3>NSS NITP</h3>
+                        <h3>VOLUNTEER</h3>
+                        <p>Teaching Students[SANKALP]</p>
+                        <p>Providing Volunteer Support with Team</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work4unity.jpg">
+                    <div class="layer">
+                        <h3>WORK4UNITY</h3>
+                        <h3>VOLUNTEER</h3>
+                        <p>Providing Essentials Items in Hard Times</p>
+                        <p>Supporting Team</p>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> me</h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">contact info</h3>
+                <div class="info">
+                    <a href="https://www.linkedin.com/in/suraj18/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/meSURAJ15"target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                    <a href="mailto:surajsinha094@gmail.com"target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-envelope"></i> Gmail
+                    </a>
+                    <a href=""><i class="fas fa-map-marker-alt"></i> Patna, Bihar </a>
+                </div>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form >
+                <input type="hidden" name="access_key" value="e34366f5-17ab-4564-b9a8-587f89ee0ffe">
+                <input type="text" name="Name" placeholder="name" class="box">
+                <input type="email" name="Email" placeholder="email" class="box">
+                <textarea name="Message" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn">send <i class="fas fa-paper-plane"></i></button>
+                <span id="msg"></span>
+    
+              </form>
+        </div>
+    </section>
+
+    <a href="#home" class="top">
+        <img src="images/scroll-top-img.png" alt="">
+    </a>
+    <script src="https://kit.fontawesome.com/09df685748.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+    <footer>
+        <p class="copyright">Made with ❤️</p>
+        <a href="https://www.linkedin.com/in/rishav-parasar" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+    </footer>
+
+</body>
+
+</html>
